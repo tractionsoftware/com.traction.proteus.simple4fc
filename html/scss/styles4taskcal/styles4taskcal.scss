@@ -20,4 +20,16 @@ body:not(.is-serveradmin) {
   #sect-nav {
     display: none;
   }
+  // Top-right, User's profile menu
+  .profile-menu {
+    .m {
+      .menuitem-worklist, .menuitem-profile, .menuitem-drafts, .menuitem-colletor, .menuitem-user-setup {
+        display: none;
+      }
+    }
+    .n {
+      // Mini status update form
+      display: none;
+    }
+  }
 }
