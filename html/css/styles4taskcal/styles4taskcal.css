@@ -1,0 +1,1 @@
+.body:not(.is-serveradmin) #newheader #search{display:none}.body:not(.is-serveradmin) #newheader #menu .menu-help,.body:not(.is-serveradmin) #newheader #menu .menu-admin,.body:not(.is-serveradmin) #newheader #menu .menu-invite,.body:not(.is-serveradmin) #newheader #menu .menu-notifications{display:none}.body:not(.is-serveradmin) #sect-nav{display:none}

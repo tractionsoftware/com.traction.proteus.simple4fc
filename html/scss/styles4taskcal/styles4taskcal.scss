@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+// Hide the "unnecessary" parts of the views
+// if the requesting user (login user) is not a server admin.
+.body:not(.is-serveradmin) {
+  #newheader {
+    #search {
+      display: none;
+    }
+    #menu {
+      .menu-help, .menu-admin, .menu-invite, .menu-notifications {
+        display: none;
+      }
+    }
+  }
+  // Proteus Tabs and Sub-tabs
+  #sect-nav {
+    display: none;
+  }
+}
