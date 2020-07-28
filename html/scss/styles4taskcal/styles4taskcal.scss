@@ -23,7 +23,7 @@ body:not(.is-serveradmin) {
   // Top-right, User's profile menu
   .profile-menu {
     .m {
-      .menuitem-worklist, .menuitem-profile, .menuitem-drafts, .menuitem-colletor, .menuitem-user-setup {
+      .menuitem-worklist, .menuitem-profile, .menuitem-drafts, .menuitem-collector, .menuitem-user-setup {
         display: none;
       }
     }
