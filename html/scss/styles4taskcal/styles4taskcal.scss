@@ -32,4 +32,10 @@ body:not(.is-serveradmin) {
       display: none;
     }
   }
+  // User profile details
+  &.view-profile {
+    #newheader-extra {
+      display: none;
+    }
+  }
 }
